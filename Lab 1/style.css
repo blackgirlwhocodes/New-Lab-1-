@@ -1,0 +1,91 @@
+body{font-family: 'Bungee', cursive;}
+header{display:flex;
+align-items: center;
+justify-content: space-between;}
+
+.menu{
+    display:flex;
+    width:400px;
+    justify-content: space-evenly;
+    color:#7944E6
+}
+a:hover{
+ color:#10fdff;   
+}
+.truck{
+    background-color:#ff00ff ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Text{
+width:50%
+
+}
+.truck-image{
+    width:200px;
+    width:50%
+}
+.columns{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left:25px;
+}
+.column{
+    border:5px solid #7944E6;
+    width: 350px;
+    height: 425px;
+    
+
+}
+.Subtext{
+    vertical-align:text-top;
+    text-align:center; 
+
+}
+
+.ul.hover{
+    color:#10fdff;
+}
+.images{
+    width:90%;
+
+}
+
+.ViewMenu{
+    vertical-align: baseline;
+    Text-align:center;
+     color:#7944e6;
+
+}
+.ViewMenu:hover{
+    color:#10fdff;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    Padding: 0;
+    display:flex;
+    width:400px;
+    justify-content: space-evenly;
+    color:#7944E6
+
+
+}
+@media screen and (min-width: 768px) {
+    .columns{
+        display:flex;
+        flex-direction:row;
+    }
+    .truck{
+        display:flex;
+        flex-direction: row;
+    }
+}
